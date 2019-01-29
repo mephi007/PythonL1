@@ -7,7 +7,7 @@ b = input()
 c = input()
 
 #using if to check if a is biggest
-if(a>b & a>c):
+if(a>b and a>c):
 	print("the biggest number among three is ::"+ str(a))
 
 #if a is not, then checking whether b is greater than c
