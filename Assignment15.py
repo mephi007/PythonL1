@@ -1,6 +1,7 @@
 #Create a list of 5 names and check given name exist in the List.
 #Use membership operator (IN) to check the presence of an element.
 #Perform above task without using membership operator.
+#Print the elements of the list in reverse direction.
 
 
 #Create a list of 5 names 
@@ -22,3 +23,7 @@ for name in Names:
 		break
 	else:
 		print("not found")
+
+#Print the elements of the list in reverse direction.
+print("print the elements of the list in reverse direction.")
+print(Names[::-1])
